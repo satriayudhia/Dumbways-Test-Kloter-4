@@ -1,0 +1,213 @@
+.section-title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e153a;
+}
+
+.post {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.singer {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff5500;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.genre {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    bottom: 18px;
+    left: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+
+.genre span {
+    background-color: #ff5500;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+.genre span:hover {
+    background-color: #131313;
+    color: #fff;
+}
+
+.btn-detail {
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 80px;
+    border-radius: 4px;
+    background: #131313;
+    border:  2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn-detail:hover {
+    cursor: pointer;
+    background: #ff5500;
+    color: white;
+}
+
+.duration {
+    font-size: 14px;
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: #131313;
+    pointer-events: none;
+}
+
+.img-thumb {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.img-thumb img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.content p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.content p.title {
+    text-align: left;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#131313;
+    margin-left: 10px;
+}
+
+.remove {
+    margin-left: 16px;
+    margin-top: 10px;
+    padding: 12px 18px;
+    background: white;
+    color: #E91E63;
+    border-radius: 4px;
+    border-color: #E91E63;
+    outline: none;
+}
+
+.remove:hover {
+    cursor: pointer;
+    background: #E91E63;
+    color: white;
+}
+
+.update {
+    margin-left: 16px;
+    margin-top: 10px;
+    padding: 12px 18px;
+    background: white;
+    color: #E91E63;
+    border-radius: 4px;
+    border-color: #E91E63;
+    outline: none;
+}
+
+.update:hover {
+    cursor: pointer;
+    background: #E91E63;
+    color: white;
+}
+
+.form-add-post {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+
+.form-add-pos label {
+    display: block;
+    font-size: 14px;
+    color: #607D8B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-add-post input, .form-add-post textarea {
+    outline: none;
+    border: 1px solid #607D8B;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #607D8B;
+}
+
+button.btn-submit {
+    outline: none;
+    border: 1px solid #2196F3;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #2196F3;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer
+}
+
+button.btn-submit:hover {
+    border: 1px solid white;
+    color:white;
+    background-color: #2196F3;
+}
